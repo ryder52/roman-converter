@@ -1,0 +1,27 @@
+{
+  "name": "mikolas/romanConverter",
+  "description": "Convert arabic numbers to roman numerals",
+  "keywords": [
+    "romanNumerals",
+    "mikolas",
+    "converter"
+  ],
+  "license": "MIT",
+  "type": "composer-plugin",
+  "authors": [
+    {
+      "name": "Dusan Mikolas",
+      "email": "dusan.mikolas@ringier.sk",
+      "role": "developer"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Mikolas\\": "src/"
+    }
+  },
+  "require": {
+    "phpunit/phpunit": "^8.0"
+  }
+}
